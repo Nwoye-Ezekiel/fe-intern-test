@@ -6,15 +6,19 @@
   height: 40px;
   margin-bottom: 40px;
 }
+
 .logo {
   position: relative;
   letter-spacing: -1px;
   font-size: 25px;
   color: white;
+  cursor: pointer;
 }
+
 .bold-logo {
   font-weight: bold;
 }
+
 .dot {
   height: 4px;
   width: 4px;
@@ -24,11 +28,19 @@
   top: 40%;
   right: -6px;
 }
+
 .links {
   display: flex;
   list-style: none;
 }
+
 li {
   margin-left: 20px;
   color: #fff;
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+li:hover {
+  color: #0075ff;
 }

@@ -3,6 +3,7 @@
   display: flex;
   justify-content: center;
 }
+
 form {
   border: rgba(255, 255, 255, 0.451) solid 1px;
   padding: 30px 20px 50px;
@@ -49,6 +50,10 @@ input[type="password"] {
   color: #ffffffd7;
 }
 
+input[type="checkbox"] {
+  cursor: pointer;
+}
+
 input::placeholder {
   color: #ffffff73;
 }
@@ -65,6 +70,7 @@ img {
   transform: translateY(-50%);
   cursor: pointer;
 }
+
 button {
   font-family: "livvic-m";
   font-size: 14.5px;
@@ -79,6 +85,7 @@ button {
   outline: none;
   border: none;
   cursor: pointer;
+  margin-bottom: 30px;
 }
 
 .remember-me-cont {
@@ -92,4 +99,16 @@ button {
   color: #ffffffbd;
   margin-left: 5px;
   font-size: 13px;
+}
+
+.forgot-password {
+  font-size: 13px;
+  color: #ffffffbd;
+  cursor: pointer;
+  text-decoration: underline;
+  transition: 0.2s;
+}
+
+.forgot-password:hover {
+  color: #0075ff;
 }

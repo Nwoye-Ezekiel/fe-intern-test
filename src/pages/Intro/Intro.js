@@ -11,10 +11,10 @@ export default function Intro() {
   return (
     <div className="intro-container">
       <lottie-player
-        src="https://assets8.lottiefiles.com/packages/lf20_3ch8tez9.json"
+        src="https://assets6.lottiefiles.com/packages/lf20_efsb0hef.json"
         background="transparent"
         speed="1"
-        style={{ width: "400px", height: "400px" }}
+        style={{ width: "300px ", height: "400px" }}
         autoplay
       ></lottie-player>
     </div>
