@@ -6,7 +6,7 @@ export default function Intro() {
   let history = useHistory();
   setTimeout(() => {
     history.push("/sign-in");
-  }, 7000);
+  }, 3500);
 
   return (
     <div className="intro-container">
